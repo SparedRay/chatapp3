@@ -46,30 +46,86 @@
 
 
       <section id="main_content">
-        <h3>
-<a id="bienvenido-a-la-pagina-de-chatapp-30" class="anchor" href="#bienvenido-a-la-pagina-de-chatapp-30" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bienvenido a la pagina de Chatapp 3.0.</h3>
+        <h1>
+<a id="chatapp" class="anchor" href="#chatapp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chatapp</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+<p>Inicio del README instrucciones de instalacion.</p>
+
+<h2>
+<a id="prerequisitos" class="anchor" href="#prerequisitos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisitos</h2>
+
+<p>Para iniciar el desarrollo debes tener las siguientes dependencias:</p>
+
+<ul>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li>
+<a href="http://nodejs.org/">Node.js</a> (with NPM)</li>
+<li><a href="http://bower.io/">Bower</a></li>
+<li><a href="http://www.ember-cli.com/">Ember CLI</a></li>
+<li><a href="http://phantomjs.org/">PhantomJS</a></li>
+</ul>
+
+<h2>
+<a id="instalacion" class="anchor" href="#instalacion" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instalacion</h2>
+
+<ul>
+<li>
+<code>git clone git@github.com:SparedRay/chatapp3.git</code> al repositorio</li>
+<li>cd al nuevo directorio</li>
+<li><code>npm install</code></li>
+<li><code>bower install</code></li>
+</ul>
+
+<h2>
+<a id="running--development" class="anchor" href="#running--development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running / Development</h2>
+
+<ul>
+<li><code>ember server</code></li>
+<li>Prueba la aplicacion en <a href="http://localhost:4200">http://localhost:4200</a>.</li>
+</ul>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="code-generators" class="anchor" href="#code-generators" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code Generators</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>prueba los generadores con <code>ember help generate</code></p>
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a id="running-tests" class="anchor" href="#running-tests" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running Tests</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<ul>
+<li><code>ember test</code></li>
+<li><code>ember test --server</code></li>
+</ul>
 
 <h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="building" class="anchor" href="#building" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Building</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<ul>
+<li>
+<code>ember build</code> (development)</li>
+<li>
+<code>ember build --environment production</code> (production)</li>
+</ul>
+
+<h3>
+<a id="deploying" class="anchor" href="#deploying" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deploying</h3>
+
+<p>Specify what it takes to deploy your app.</p>
+
+<h2>
+<a id="further-reading--useful-links" class="anchor" href="#further-reading--useful-links" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Further Reading / Useful Links</h2>
+
+<ul>
+<li><a href="http://emberjs.com/">ember.js</a></li>
+<li><a href="http://www.ember-cli.com/">ember-cli</a></li>
+<li>Development Browser Extensions
+
+<ul>
+<li><a href="https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi">ember inspector for chrome</a></li>
+<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/">ember inspector for firefox</a></li>
+</ul>
+</li>
+</ul>
       </section>
 
       <footer>
