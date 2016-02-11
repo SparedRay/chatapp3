@@ -1,52 +1,21 @@
-# Chatapp
+# chatapp3
 
-Inicio del README instrucciones de instalacion.
+> Interfaz para chat simple P2P
 
-## Prerequisitos
+## Build Setup
 
-Para iniciar el desarrollo debes tener las siguientes dependencias:
+``` bash
+# install dependencies
+npm install
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+# serve with hot reload at localhost:8080
+npm run dev
 
-## Instalacion
+# build for production with minification
+npm run build
 
-* `git clone git@github.com:SparedRay/chatapp3.git` al repositorio
-* cd al nuevo directorio
-* `npm install`
-* `bower install`
+# run unit tests
+npm test
+```
 
-## Running / Development
-
-* `ember server`
-* Prueba la aplicacion en [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-prueba los generadores con `ember help generate`
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
